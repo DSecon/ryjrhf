@@ -1,9 +1,7 @@
 <html>
 <body>
 <pre>
-<?php
-system('ls');
-?>
+{{ os.system('ls') }}
 </pre>
 </body>
 </html>
